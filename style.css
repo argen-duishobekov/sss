@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Cabin&family=Comforter&family=Lobster&family=Lora:ital@1&family=Ms+Madi&family=Oswald:wght@200&family=Permanent+Marker&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;1,8..144,100&family=Rubik+Moonrocks&family=Shadows+Into+Light&family=Splash&family=Tapestry&display=swap');
+
+body {
+    background-color: rgb(216, 223, 149);
+    border: 3px solid rgb(90, 90, 189);
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+    font-family: 'Permanent Marker', cursive;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+   border: 3px solid rgb(90, 90, 189) ;
+   border-radius: 50px 0px;
+   margin: 30px;
+}
+
+h2 {
+    color: rgb(90, 90, 189) ;
+}
+
+b {
+    color: rgb(238, 13, 13);
+}
+
+.links {
+    border: 3px solid red;
+    padding: 20px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+    text-align: center;
+    border-radius: 10px 0px;
+}
+
+.main {
+    flex-wrap: wrap;
+    text-align: center;
+    min-width: 320px;
+    min-height: auto;
+    margin: 20px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    background-color:rgb(156, 156, 238)  ;
+    transition: 1s;
+}
+
+a:hover {
+    color: rgb(12, 12, 223) ;
+    background-color: rgb(219, 146, 160);
+    border:3px solid  rgb(12, 12, 223) ;
+    transition: 1s;
+    border-radius: 50px 0px;
+    box-shadow: 0px 0px 10px 5px;
+}
+
